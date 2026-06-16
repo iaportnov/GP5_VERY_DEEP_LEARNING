@@ -1,0 +1,23 @@
+artifact_path: file:///content/GP5_VERY_DEEP_LEARNING/logs/models/m-e458e47908ab48d285d59f22fd1be40c/artifacts
+flavors:
+  python_function:
+    config:
+      device: null
+    data: data
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.pytorch
+    pickle_module_name: mlflow.pytorch.pickle_module
+    python_version: 3.12.13
+  pytorch:
+    code: null
+    model_data: data
+    pytorch_version: 2.11.0+cu128
+mlflow_version: 3.13.0
+model_id: m-e458e47908ab48d285d59f22fd1be40c
+model_size_bytes: 26755991
+model_uuid: m-e458e47908ab48d285d59f22fd1be40c
+prompts: null
+run_id: be5ca08c7ecc464cb1ebec2702c784ea
+utc_time_created: '2026-06-16 09:22:55.817559'
